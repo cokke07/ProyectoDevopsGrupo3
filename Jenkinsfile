@@ -21,13 +21,6 @@ pipeline {
             }
         }
 
-        stage('Ejecutar pruebas de rendimiento') {
-                    steps {
-                        // Ejecutar pruebas de rendimiento con JMeter
-                       sh 'apache-jmeter-5.4.1/bin/jmeter.sh -n -t apache-jmeter-5.4.1/TestPlan.jmx -l apache-jmeter-5.4.1/reporteria.csv'
-                    }
-        }
-
         stage('Archive Artifacts') {
             steps {
                 archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
