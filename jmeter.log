@@ -1,0 +1,89 @@
+2023-07-11 12:25:11,005 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-07-11 12:25:11,023 INFO o.a.j.JMeter: Loading user properties from: C:\apache-jmeter-5.5\bin\user.properties
+2023-07-11 12:25:11,024 INFO o.a.j.JMeter: Loading system properties from: C:\apache-jmeter-5.5\bin\system.properties
+2023-07-11 12:25:11,030 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-07-11 12:25:11,030 INFO o.a.j.JMeter: Version 5.5
+2023-07-11 12:25:11,030 INFO o.a.j.JMeter: java.version=17.0.7
+2023-07-11 12:25:11,030 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-07-11 12:25:11,030 INFO o.a.j.JMeter: os.name=Windows 11
+2023-07-11 12:25:11,030 INFO o.a.j.JMeter: os.arch=amd64
+2023-07-11 12:25:11,030 INFO o.a.j.JMeter: os.version=10.0
+2023-07-11 12:25:11,030 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-07-11 12:25:11,031 INFO o.a.j.JMeter: java.awt.headless=null
+2023-07-11 12:25:11,031 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-07-11 12:25:11,031 INFO o.a.j.JMeter: Available Processors =8
+2023-07-11 12:25:11,039 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-07-11 12:25:11,039 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-07-11 12:25:11,040 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-5.5
+2023-07-11 12:25:11,040 INFO o.a.j.JMeter: user.dir  =C:\Users\Cokke\eclipse-workspace\ProjectDevopsGrupo3
+2023-07-11 12:25:11,040 INFO o.a.j.JMeter: PWD       =C:\Users\Cokke\eclipse-workspace\ProjectDevopsGrupo3
+2023-07-11 12:25:11,044 INFO o.a.j.JMeter: IP: 192.168.1.90 Name: LAPTOP-OP73EIC1 FullName: host.docker.internal
+2023-07-11 12:25:11,052 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-07-11 12:25:11,264 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-07-11 12:25:46,096 INFO o.a.j.s.FileServer: Default base='C:\Users\Cokke\eclipse-workspace\ProjectDevopsGrupo3'
+2023-07-11 12:25:46,099 INFO o.a.j.g.a.Load: Loading file: C:\Users\Cokke\eclipse-workspace\ProjectDevopsGrupo3\test_jmeter\plan_jmeter.jmx
+2023-07-11 12:25:46,100 INFO o.a.j.s.FileServer: Set new base='C:\Users\Cokke\eclipse-workspace\ProjectDevopsGrupo3\test_jmeter'
+2023-07-11 12:25:46,226 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-07-11 12:25:46,244 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-07-11 12:25:46,245 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-07-11 12:25:46,247 INFO o.a.j.s.SaveService: Loading file: C:\Users\Cokke\eclipse-workspace\ProjectDevopsGrupo3\test_jmeter\plan_jmeter.jmx
+2023-07-11 12:25:46,309 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-11 12:25:46,309 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-11 12:25:46,309 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-11 12:25:46,309 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-11 12:25:46,309 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-07-11 12:25:46,309 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-07-11 12:25:46,416 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-07-11 12:25:46,416 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-07-11 12:25:46,417 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-07-11 12:25:46,417 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-07-11 12:25:46,530 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-07-11 12:25:46,592 INFO o.a.j.s.FileServer: Set new base='C:\Users\Cokke\eclipse-workspace\ProjectDevopsGrupo3\test_jmeter'
+2023-07-11 12:25:49,206 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-11 12:25:49,206 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-11 12:25:49,206 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-11 12:25:49,207 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-07-11 12:25:49,207 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-07-11 12:25:49,236 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-11 12:25:49,257 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Pruebas de Carga
+2023-07-11 12:25:49,257 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Pruebas de Carga.
+2023-07-11 12:25:49,257 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-11 12:25:49,258 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-11 12:25:49,260 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-11 12:25:49,260 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-11 12:25:49,261 INFO o.a.j.t.JMeterThread: Thread started: Pruebas de Carga 1-1
+2023-07-11 12:25:49,272 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-OP73EIC1
+2023-07-11 12:25:49,280 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-07-11 12:25:49,332 INFO o.a.j.t.JMeterThread: Thread is done: Pruebas de Carga 1-1
+2023-07-11 12:25:49,332 INFO o.a.j.t.JMeterThread: Thread finished: Pruebas de Carga 1-1
+2023-07-11 12:25:49,333 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-11 12:25:49,333 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-11 12:58:18,708 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-11 12:58:18,714 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-11 12:58:18,715 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-11 12:58:18,819 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Pruebas de Carga
+2023-07-11 12:58:18,819 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Pruebas de Carga.
+2023-07-11 12:58:18,819 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-11 12:58:18,819 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-11 12:58:18,820 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-11 12:58:18,820 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-11 12:58:18,820 INFO o.a.j.t.JMeterThread: Thread started: Pruebas de Carga 1-1
+2023-07-11 12:58:18,871 INFO o.a.j.t.JMeterThread: Thread is done: Pruebas de Carga 1-1
+2023-07-11 12:58:18,871 INFO o.a.j.t.JMeterThread: Thread finished: Pruebas de Carga 1-1
+2023-07-11 12:58:18,871 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-11 12:58:18,872 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-11 13:03:26,730 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-07-11 13:06:06,964 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-11 13:06:06,964 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-11 13:06:06,966 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-11 13:06:06,992 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Pruebas de Carga
+2023-07-11 13:06:06,992 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Pruebas de Carga.
+2023-07-11 13:06:06,992 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-11 13:06:06,993 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-11 13:06:06,993 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-11 13:06:06,993 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-11 13:06:06,993 INFO o.a.j.t.JMeterThread: Thread started: Pruebas de Carga 1-1
+2023-07-11 13:06:07,005 INFO o.a.j.t.JMeterThread: Thread is done: Pruebas de Carga 1-1
+2023-07-11 13:06:07,006 INFO o.a.j.t.JMeterThread: Thread finished: Pruebas de Carga 1-1
+2023-07-11 13:06:07,006 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-11 13:06:07,006 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

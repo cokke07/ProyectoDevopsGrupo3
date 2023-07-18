@@ -1,0 +1,3 @@
+# JMeter generated Cookie file
+localhost	TRUE	/students	TRUE	0	usuario	admin
+localhost	TRUE	/students	TRUE	0	password	fb19c191-9770-4505-b78b-d8812ebbc987
