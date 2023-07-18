@@ -1,13 +1,15 @@
 package com.kibernumacademy.devops.entitys;
 
-
-import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "students")
-public class Student {
+public class Student  {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
