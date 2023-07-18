@@ -2,9 +2,9 @@ package com.kibernumacademy.devops.controllers;
 
 import com.kibernumacademy.devops.entitys.Student;
 import com.kibernumacademy.devops.services.IStudentService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +14,8 @@ import java.util.Optional;
 @Controller
 public class StudentController {
 
+  private static final Logger logger = LoggerFactory.getLogger(StudentController.class);
+  private static final String STUDENT_REDIRECT = "redirect:/students";
   private final IStudentService service;
 
   @Autowired
@@ -37,7 +39,7 @@ public class StudentController {
   @PostMapping("/students")
   public String saveStudent(@ModelAttribute("student") Student student) {
     service.saveStudent(student);
-    return "redirect:/students";
+    return STUDENT_REDIRECT;
   }
 
   @GetMapping("/students/edit/{id}")
@@ -54,7 +56,7 @@ public class StudentController {
   @PostMapping("/students/{id}")
   public String updatedStudent(@PathVariable Long id, @ModelAttribute("student") Student student, Model model ) {
     Optional<Student> optionalStudent = service.getStudentById(id);
-    System.out.println(optionalStudent.isPresent());
+    logger.info("Student exists: {}", optionalStudent.isPresent());
     if (!optionalStudent.isPresent()) {
       throw new StudentNotFoundException("No se encontró un estudiante con id: " + id);
     }
@@ -66,16 +68,14 @@ public class StudentController {
     studentExists.setEmail(student.getEmail());
 
     service.updatedStudent(studentExists);
-    return "redirect:/students";
+    return STUDENT_REDIRECT;
   }
 
   @GetMapping("/students-delete/{id}")
   public String eliminarEstudiante(@PathVariable Long id) {
     service.deleteStudentById(id);
-    return "redirect:/students";
+    return STUDENT_REDIRECT;
   }
-
-
 }
 
 class StudentNotFoundException extends RuntimeException {
