@@ -2,7 +2,7 @@ FROM openjdk:17-jdk-slim-bullseye
 RUN addgroup -system devopsc && useradd -G devopsc javams
 USER javams:devopsc
 ENV JAVA_OPTS=""
-ARG JAR_FILE
+ARG JAR_FILE=target/devops-0.0.1-SNAPSHOT.jar
 ADD ${JAR_FILE} app.jar
 VOLUME /tmp
 EXPOSE 9090
